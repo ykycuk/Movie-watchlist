@@ -1,0 +1,266 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    /* overflow: hidden;   */
+    /* background-image: url("img/ukraine-flag.jpg");
+    background-position: center;
+    background-repeat: repeat;  */
+    
+}
+
+h1, h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 43px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+nav a,
+.mainContent a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #1792d2;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("img/image36.png");
+    height: 208px;
+}
+.nav-items {
+    display: flex;
+    align-items:center;
+    width: 100%;
+    margin: 0 8% 0 8%;
+    /* height: 30px; */
+    /* border: 2px solid white; */
+    justify-content: space-between;
+
+}
+.nav-items h3 {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+    /* padding: 6px 0 0 0; */
+    /* height: 20px; */
+    /* border: solid #5B6DCD 1px; */
+    /* margin: 10px 0px; */
+}
+
+.flex-line {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    position: absolute;
+    top: 190px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.input-film {
+    background: #2E2E2F;
+    background-image: url("img/Icon.png");
+    background-position: 15px 11px;
+    padding: 9px 0 9px 41px;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    float: left; /*remove spacing between two inputs*/   
+    outline: none;
+    font-weight: 500;
+    /* width: 30%; */
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    /* height: calc(100vh); */
+    /* background-image: url("img/ukraine-flag.jpg"); */
+    background-position: center;
+    background-repeat: repeat; 
+}
+
+.search-btn {
+    font-weight: 500;
+    background: #4B4B4B;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+    outline: none;
+    color: #fff;
+    width: 120px;
+    padding: 9px 0 9px 0;
+    cursor: pointer;
+}
+
+.main-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90px;
+    color: #2E2E2F;
+}
+
+.preSearch {
+    margin: 9px;
+    font-weight: 700;
+    color: #787878;
+}
+
+.btn-add {
+    display: flex;
+}
+
+.mainContent img,
+.mainContent p {
+    margin: 13px 0 0 13px;
+    /* padding: 0 3px; */
+}
+
+@media(max-width: 680px) {
+    .search-bar {
+        position: absolute;
+        top: 190px;
+        width: 55vh;
+        left: 50%;
+    }
+}
+
+@media(max-width: 470px) {
+    .nav-items {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 0 15% 0 15%;
+        /* border: 2px solid white; */
+        justify-content: space-between;
+    }
+    .nav-items h3, h1 {
+        padding: 0 0 0 10px;
+        text-align: center
+    }
+}
+
+.imgAndSection {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0 21px 0;
+}
+
+.imgFilm {
+    width: 99px;
+    height: 147.41px;
+}
+
+.sectionFilm {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 0 21px;
+}
+
+.nameAndRating,
+.filmInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.nameAndRating h4 {
+    margin: 15px 15px 0;
+}
+
+
+
+.mainContentFilms {
+    padding: 36px 45px 0 41px;
+    width: 462px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* height: calc(100vh - 208px); */
+    /* background-image: url("img/ukraine-flag.jpg");
+    background-position: center;
+    background-repeat: repeat; */
+}
+
+.mainContentFilms p,
+.mainContentFilms h4 {
+    margin: 0 0 8px 0;
+    font-size: 12px;
+}
+
+.time {
+    padding-right: 15px;
+}
+
+.line {
+    margin: 0;
+    padding: 0;
+    color: white;
+    border: 0.5px solid #E5E7EB;
+}
+
+.star {
+    width: 15px;
+    height: 15px;
+    /* margin: 3px 4px; */
+    padding: 4px 5px 0 10px;
+}
+
+.rating {
+    padding: 5px 0 0 0;
+    margin: 0;
+}
+
+.mainContentFilms h4 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.mainContentFilms .description {
+    font-size: 14px;
+    line-height: 1.5rem;
+    color: #A5A5A5;
+}
+
+.btn-watchList {
+    display: flex;
+}
+
+.btn-watchList1 {
+    display: flex;
+}
+
+.btn-watchList1 img {
+    padding-left: 10px;
+}
+.btn-watchList img {
+    height: 16px;
+    margin: 0 5px 0 20px;
+}
+
+.btn-watchList:hover,
+.btn-watchList:focus {
+    color:#1792d2;
+    cursor: pointer;
+}

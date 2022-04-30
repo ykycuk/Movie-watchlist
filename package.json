@@ -1,0 +1,11 @@
+{
+  "homepage": "https://ykycuk.github.io/Movie-watchlist",
+
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
